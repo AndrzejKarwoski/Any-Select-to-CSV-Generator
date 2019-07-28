@@ -1,0 +1,48 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+
+    <changeSet id="1" author="IIoo">
+        <createTable tableName="COMPANY">
+            <column name="companyID" type="int" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="companyName" type="varchar(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="companyProfit" type="Long">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="2" author="IIoo">
+        <comment>Inserting Companies</comment>
+        <insert tableName="company">
+            <column name="companyID" valueNumeric="1"/>
+            <column name="companyName" value="ApplePie"/>
+            <column name="companyProfit" value="10000"/>
+        </insert>
+        <insert tableName="company">
+            <column name="companyID" valueNumeric="2"/>
+            <column name="companyName" value="Samsungo"/>
+            <column name="companyProfit" value="202121"/>
+        </insert>
+        <insert tableName="company">
+            <column name="companyID" valueNumeric="3"/>
+            <column name="companyName" value="Software House"/>
+            <column name="companyProfit" value="3110"/>
+        </insert>
+        <insert tableName="company">
+            <column name="companyID" valueNumeric="4"/>
+            <column name="companyName" value="Polando"/>
+            <column name="companyProfit" value="1"/>
+        </insert>
+    </changeSet>
+
+
+</databaseChangeLog>

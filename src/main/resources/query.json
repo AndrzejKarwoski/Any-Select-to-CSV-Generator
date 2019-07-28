@@ -1,0 +1,8 @@
+[
+  {
+    "queryName": "Query_01",
+    "columnNames": "ID Firmy;Nazwa firmy;Zysk firmy",
+    "queryText": "Select * from COMPANY where companyProfit >= :companyProfit"
+  }
+]
+
