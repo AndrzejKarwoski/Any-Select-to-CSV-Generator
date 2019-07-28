@@ -6,3 +6,5 @@ All you need to do is set up a connection to the database in application.propert
 Then you need to send a POST Request to localhost:8080/get with your query name, and parameters if your query need it.
 
 An example of a POST query sent
+
+![https://github.com/AndrzejKarwoski/Any-Select-to-CSV-Generator/blob/master/Przechwytywanie.PNG]
