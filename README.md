@@ -8,3 +8,10 @@ Then you need to send a POST Request to localhost:8080/get with your query name,
 An example of a POST query sent
 
 ![Example](https://github.com/AndrzejKarwoski/Any-Select-to-CSV-Generator/blob/master/Przechwytywanie.PNG)
+
+
+
+
+
+
+H2 Databese and Liquiscript are used only for testing
