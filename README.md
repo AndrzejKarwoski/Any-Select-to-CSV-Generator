@@ -7,4 +7,4 @@ Then you need to send a POST Request to localhost:8080/get with your query name,
 
 An example of a POST query sent
 
-![https://github.com/AndrzejKarwoski/Any-Select-to-CSV-Generator/blob/master/Przechwytywanie.PNG]
+![Example](https://github.com/AndrzejKarwoski/Any-Select-to-CSV-Generator/blob/master/Przechwytywanie.PNG)
